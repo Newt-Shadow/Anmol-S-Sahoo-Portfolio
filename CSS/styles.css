@@ -1,3 +1,8 @@
+.bg-col {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgba(5, 8, 22, var(--tw-bg-opacity)) !important;
+}
+
 @media (min-width: 768px) {
     .p-med-5 {
         padding: 3rem !important;
@@ -16,48 +21,42 @@
     }
 }
 
-
-.cover{
-    
+.cover {
     background-color: #ebf4f600;
     padding: 100px;
-    
 }
 
 .lead {
     font-size: 1.25rem;
-    font-weight: 300
+    font-weight: 300;
 }
 
-.pad-3{
+.pad-3 {
     padding: 1rem !important;
 }
 
-.position-rel{
+.position-rel {
     position: relative;
 }
 
-.info{
-    
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: calc(-1* var(--bs-gutter-y));
-        margin-right: calc(-.5* var(--bs-gutter-x));
-        margin-left: calc(-.5* var(--bs-gutter-x));
-    
+.info {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-#portfolio-image{
+#portfolio-image {
     display: block;
     max-width: 100%;
     height: auto;
-
 }
 
 .pricing-container {
@@ -68,55 +67,50 @@
     gap: 2rem;
     padding-top: 0px;
     margin-top: 0px;
-  }
+}
 
-  .pricing-plan {
+.pricing-plan {
     flex: 1;
     max-width: 400px;
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 5px;
     text-align: center;
-  }
+}
 
-  .plan-title {
+.plan-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-  }
+}
 
-  .plan-price {
+.plan-price {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
-  }
+}
 
-  .plan-features {
+.plan-features {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
 
-  .plan-features li {
+.plan-features li {
     margin-bottom: 20px;
-  }
+}
 
-  .plan-button {
+.plan-button {
     padding: 10px;
     background-color: #ff6600;
     color: #fff;
     border-radius: 5px;
     border: none;
-  }
+}
 
-  @media (max-width: 1250px) {
+@media (max-width: 1250px) {
     .pricing-container {
       flex-direction: column;
       height: 100%;
     }
-  }
-
-  .bg-col {
-    --tw-bg-opacity: 1 !important;
-    background-color: rgb(5 8 22 / var(--tw-bg-opacity)) !important ;
 }
