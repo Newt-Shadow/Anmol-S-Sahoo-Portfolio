@@ -18,7 +18,8 @@
 
 
 .cover{
-    
+
+    padding-top: 0;
     background-color: #ebf4f600;
     padding: 100px;
     
@@ -93,3 +94,4 @@
 .canvas-width{
   width: 200px !important;
 }
+
