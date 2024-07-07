@@ -1,27 +1,33 @@
-.logo-banner-1,.logo-banner-2{
+.logo-banner-1{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .logo-1,.logo-2,.logo-3,.logo-4,.logo-5,.logo-6{
     padding: 1rem;
-    margin-top: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.6rem;
+    margin-top: 0.1rem;
     width: 130px;
     height: 130px;
     background-color: #D6EFD8;
     position: relative;
-    border-radius: 30%;
+    border-radius: 20px;
     
 }
 
-@media (max-width: 480px){
-    .sm-580-px{
-        height: auto;
-        width: auto;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
+@media (min-width:680px) and (max-width:1010px){
+    .sm-680-px{
+        display: grid;
+        grid-template-columns: 130px 130px 130px;
+        grid-template-rows: 150 150px;
 
 
     }
 }
+
+
+
+
