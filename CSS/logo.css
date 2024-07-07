@@ -23,8 +23,6 @@
         display: grid;
         grid-template-columns: 130px 130px 130px;
         grid-template-rows: 150 150px;
-
-
     }
 }
 
