@@ -1,0 +1,27 @@
+.logo-banner-1,.logo-banner-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.logo-1,.logo-2,.logo-3,.logo-4,.logo-5,.logo-6{
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 130px;
+    height: 130px;
+    background-color: #D6EFD8;
+    position: relative;
+    border-radius: 30%;
+    
+}
+
+@media (max-width: 480px){
+    .sm-580-px{
+        height: auto;
+        width: auto;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+
+    }
+}

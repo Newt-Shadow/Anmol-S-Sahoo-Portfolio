@@ -76,7 +76,7 @@
     font-style: italic;
     color: #ddc5f6a9;
     margin-top: 1rem;
-    width: 48rem;
+    max-width: 48rem;
     line-height: 30px;
 
 }
