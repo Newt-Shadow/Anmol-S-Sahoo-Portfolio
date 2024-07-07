@@ -23,8 +23,3 @@
   color: #FFCBCB;
 }
 
-@media (max-width:820px){
-  py-1rem{
-    padding-left: 2rem;
-  }
-}

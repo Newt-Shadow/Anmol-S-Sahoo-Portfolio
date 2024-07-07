@@ -18,7 +18,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Condensed:ital,wght@1,100..900&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 
 </head>
@@ -26,24 +28,36 @@
 
 <body style="background-color: rgb(5 8 22 / var(--tw-bg-opacity))">
   <div class="bg-col z-0 position-rel">
-<!---Title-->
+<!---Title/Navbar-->
 <section id="title" class="banner">
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="./Assets/images/A icon.svg" alt="logo" height="30" width="40">
-
-            <span class="fs-4" style="color: #fff;">Anmol | Swarup | Sahoo</span>
-          </a>
-    
-          <nav class="nav nav-masthead justify-content-center float-md-end" >
-            <a class="nav-link fw-bold py-1  active" aria-current="page" href="#">Home</a>
-            <a class="nav-link fw-bold py-1 " href="#">Projects</a>
-            <a class="nav-link fw-bold py-1 " href="#">Contact</a>
-          </nav>
-        </header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand typograph" href="#"><img src="./Assets/images/A icon.svg" height="30" width="40"> ANMOL | SWARUP | SAHOO</a>
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--sidebar-->
+      <div class="offcanvas offcanvas-end sidebar canvas-width" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!--sidebar-head-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title typograph " id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#overview">Overview</a>
+            </li>
+            
+          </ul>
+         
+        </div>
       </div>
-    
+    </div>
+  </nav>
 </section>
 
 
@@ -53,29 +67,12 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 
             <div class="col-lg-6" >
-              <h3 class="intro py-1rem" style="@media (max-width:820px){
-                py-1rem{
-                  padding-left: 2rem;
-                }
-              }">
-              Introduction</h3>
-                <h1 class="int fw-bold  lh-1 mb-3 py-1rem" style="@media (max-width:820px){
-                  py-1rem{
-                    padding-left: 2rem;
-                  }
-                }">Hi! I'm <span class="name">Anmol</span></h1>
-                  <h3 class="lead bio py-1rem" style="@media (max-width:820px){
-                    py-1rem{
-                      padding-left: 2rem;
-                    }
-                  }">
+              <h3 class="intro py-1rem">Introduction</h3>
+                <h1 class="int fw-bold  lh-1 mb-3 py-1rem">Hi! I'm <span class="name">Anmol</span></h1>
+                  <h3 class="lead bio py-1rem">
                       A Sophomore at NIT, Silchar 
                   </h3>
-                  <h3 class="lead bio py-1rem" style="@media (max-width:820px){
-                    py-1rem{
-                      padding-left: 2rem;
-                    }
-                  }">
+                  <h3 class="lead bio py-1rem">
                        A Web Developer and  A Tech Enthusiast
                   </h3>
                 </p>
@@ -96,7 +93,7 @@
 <section class="sm-px-6 sm-py-6 px-6 py-10 max-w-xl mx-lg-auto position-rel z-0 ">
   <span class="hash-span" id="about">&nbsp;</span>
   <div style="opacity: 1; transform: none;">
-    <h2 class="overview md-text sm-text xs-text">Overview. </h2>
+    <h2 class="overview md-text sm-text xs-text" id="overview">Overview. </h2>
     <p class="biopic">
       I'm a Tech Enthusiast and Full Stack Web Developer with experience in HTML5, CSS, Javascript and in frameworks like React and NodeJs. I am also have some some experience in Data Structures and algorithm. I am a quick learner and try to create efficient solutions by combining engineering knowledge with programming to solve real-life problems.
       <br>
@@ -152,7 +149,7 @@
 
 </div>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 
