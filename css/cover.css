@@ -1,14 +1,9 @@
-/*
- * Globals
- */
 
-
-/* Custom default button */
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
   color: #fff;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none; 
 }
 
 
