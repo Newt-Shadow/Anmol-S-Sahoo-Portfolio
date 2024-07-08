@@ -97,10 +97,8 @@
 }
 
 #title-bgm{
-    background-image: url(./bgm.jpg);
-    background-image: url("./bgm.jpg");
+    background-image: url("./bgm2.svg");
     background-position: center;
-    
     background-size: cover;
   
 }
