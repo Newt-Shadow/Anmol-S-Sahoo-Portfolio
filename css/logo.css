@@ -265,7 +265,7 @@ Footer CSS
 p{
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight:bold;
+    font-weight:bold ;
     font-style: normal;
     font-size:15px ;
 }
@@ -275,7 +275,7 @@ p{
   color: inherit;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 200 !important;
   font-style: normal;
   font-size:17px !important;
 }
