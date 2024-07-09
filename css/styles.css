@@ -78,7 +78,7 @@
 
 .typograph{
   
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif !important;
     font-weight: 400;
     font-style: normal;
     font-size: larger;
