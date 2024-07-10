@@ -20,10 +20,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
     color-scheme: dark;
 }
+
+.greeting {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    left: 40%;
+    color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+  }
+
+  #greeting {
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+    animation: typing 2s steps(20, end);
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  
 
 
 

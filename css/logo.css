@@ -163,13 +163,12 @@ Timeline CSS
   }
 
   .Edu-det{
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 70px;
-    margin-right: 100px;    
   }
 
   .Edu-det h1{
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 40px;
     color: aliceblue;
@@ -184,13 +183,13 @@ Timeline CSS
  .details-edu h3{
     font-weight: 700;
     font-size:1.7rem ;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
  }
 
  .edu {
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -262,10 +261,10 @@ Footer CSS
     padding-top: 1rem;
 }
 
-p{
-    font-family: "Roboto Slab", serif;
+.p-foot{
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
-    font-weight:bold ;
+    font-weight:300 !important;
     font-style: normal;
     font-size:15px ;
 }
@@ -273,9 +272,9 @@ p{
 .no-link, .no-link:focus, .nolink:hover, .no-link:active{
   text-decoration: none;
   color: inherit;
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200 !important;
+  
   font-style: normal;
   font-size:17px !important;
 }
