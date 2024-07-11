@@ -1,0 +1,147 @@
+@media (min-width: 768px) {
+    .p-med-5 {
+        padding: 3rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .m-med-3 {
+        margin: 1rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex-rev {
+        flex-direction: row-reverse !important;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+.greeting {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    left: 40%;
+    color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+  }
+
+  #greeting {
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+    animation: typing 2s steps(20, end);
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  
+
+
+
+.cover{
+
+    padding-top: 0;
+    background-color: #ebf4f600;
+    padding: 100px ;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300
+}
+
+.pad-3{
+    padding: 1rem !important;
+}
+
+.position-rel{
+    position: relative;
+}
+
+
+.align-center{
+    align-items: center;
+}
+
+#portfolio-image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+
+  .bg-col {
+    --tw-bg-opacity: 1;
+    background-color: rgb(5 8 22 / var(--tw-bg-opacity));
+}
+
+.typograph{
+  
+    font-family: "Bebas Neue", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+   
+}
+
+@media(max-width:991px){
+  .sidebar{
+    background-color: rgba(255,255,255,0.15) !important;
+    backdrop-filter: blur(10px) !important;
+  }
+}
+
+.canvas-width{
+  width: 200px !important;
+}
+
+#title-bgm{
+    background-image: url("./bgm2.svg");
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
