@@ -1,3 +1,15 @@
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load",function(){
+  loader.style.display= "none";
+})
+
+
+
+
+
+
+
 /* offcanvas fixed */
 document.addEventListener("DOMContentLoaded", function(){
   var myOffcanvas = document.getElementById('offcanvasNavbarLabel');
@@ -16,9 +28,12 @@ var hour = today.getHours();
 
 
 var greeting;
-if (hour < 12) {
-  greeting = "Good Morning!";
-} else if (hour < 18) {
+if (hour < 6) {
+  greeting = "Hi!";
+}else if(hour <12){
+  greeting="Good Morning!";
+}
+ else if (hour < 18) {
   greeting = "Good Afternoon!";
 } else   {
   greeting = "Good Evening!";

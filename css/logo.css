@@ -32,6 +32,38 @@
     padding-top: 10px;
 }
 
+.g1{
+    
+  animation: 1.6s linear  s1;
+}
+
+@keyframes s1 {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateX(-50vw);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateX(0vw);
+  }
+}
+
+.g2{
+  
+  animation: 1.6s linear  s2;
+}
+
+@keyframes s2 {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateX(100vw);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateX(0vw);
+  }
+}
+
 /*
 Timeline CSS
 */
@@ -219,6 +251,14 @@ img{
     height: 2.1rem;
     color: aqua;
     
+}
+
+.icons-insta img {  
+  transition: transform 0.3s ease;
+}
+
+.icons-insta img:hover {
+  transform: scale(1.3);
 }
 
 /*
