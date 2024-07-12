@@ -47,7 +47,7 @@ To deploy this project, follow these steps:
 
 
 ## 🚀 About Me
-I'm a full stack developer am a Full Stack Web Developer with experience in HTML5, CSS, Javascript, and frameworks like React, Bootstrap, and NodeJs. I also have experience in DSA.
+I'm a full stack developer with experience in HTML5, CSS, Javascript, and frameworks like React, Bootstrap, and NodeJs. I also have experience in DSA.
 
 
 ## 🔗 Links
