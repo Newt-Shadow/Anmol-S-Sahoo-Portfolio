@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("body").classList.remove("hidden");
 
-  }, 3000);
+  }, 3800);
 });
 
 
