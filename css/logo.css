@@ -45,12 +45,12 @@
 
 @keyframes s1 {
   from {
-    
+
     transform: translateX(-50vw);
   }
 
   to {
-   
+
     transform: translateX(0vw);
   }
 }
@@ -62,7 +62,7 @@
 
 @keyframes s2 {
   from {
-   
+
     transform: translateX(100vw);
   }
 
@@ -252,6 +252,7 @@ li {
   justify-content: space-evenly;
   height: 4rem;
   align-items: center;
+  padding-left: 0;
 
 }
 
