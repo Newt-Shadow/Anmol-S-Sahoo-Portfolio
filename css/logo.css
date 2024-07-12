@@ -45,12 +45,12 @@
 
 @keyframes s1 {
   from {
-    /* pushes the sun down past the viewport */
+    
     transform: translateX(-50vw);
   }
 
   to {
-    /* returns the sun to its default position */
+   
     transform: translateX(0vw);
   }
 }
@@ -62,12 +62,11 @@
 
 @keyframes s2 {
   from {
-    /* pushes the sun down past the viewport */
+   
     transform: translateX(100vw);
   }
 
   to {
-    /* returns the sun to its default position */
     transform: translateX(0vw);
   }
 }
