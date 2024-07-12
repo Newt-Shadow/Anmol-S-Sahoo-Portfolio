@@ -16,7 +16,7 @@ Hi! I am Anmol Swarup Sahoo and Welcome to my Portfolio Website. This is created
 - Cross platform: Website is compatible on all devices and OS (Windows, Android and iOS)
 - Live previews: Website can previewed live 
 - Functional NavBar - Simple and functional NavBar to navigate through the website
-- Responsive Website: It is Responsiveon all screen sizes 
+- Responsive Website: It is Responsive on all screen sizes 
 - Functional Contact Form: The data entered is received and stored in the backend
 - Firebase Database Integrated: Firebase is used for storing data in realtime 
 
