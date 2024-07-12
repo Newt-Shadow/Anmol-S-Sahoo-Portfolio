@@ -156,6 +156,10 @@
   z-index: 1000 !important;
 }
 
+.m-right-0{
+  margin-right: 0 !important;
+}
+
 .margin-r-21 {
   margin-right: 21px !important;
 }
